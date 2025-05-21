@@ -1,0 +1,35 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/x64/ninja -G Ninja -S /Users/zadyverdecia/CLionProjects/Helloworld -B /Users/zadyverdecia/CLionProjects/Helloworld/cmake-build-debug
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc - broken
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:67 (message):
+  The C compiler
+
+    "/usr/bin/cc"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: '/Users/zadyverdecia/CLionProjects/Helloworld/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gOnGyT'
+    
+    Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/x64/ninja -v cmTC_fec98
+    [1/2] /usr/bin/cc    -o CMakeFiles/cmTC_fec98.dir/testCCompiler.c.o -c /Users/zadyverdecia/CLionProjects/Helloworld/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gOnGyT/testCCompiler.c
+    FAILED: CMakeFiles/cmTC_fec98.dir/testCCompiler.c.o 
+    /usr/bin/cc    -o CMakeFiles/cmTC_fec98.dir/testCCompiler.c.o -c /Users/zadyverdecia/CLionProjects/Helloworld/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gOnGyT/testCCompiler.c
+    You have not agreed to the Xcode license agreements. Please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode and Apple SDKs license.
+    ninja: build stopped: subcommand failed.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
